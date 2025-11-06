@@ -1,0 +1,100 @@
+.delivery {
+    margin-bottom: 120px;
+}
+
+.delivery-title {
+    margin-top: 96px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #414141;
+}
+
+.delivery-list {
+    margin-top: 32px;
+    display: flex;
+    gap: 14px;
+}
+
+.delivery-list p {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--color-grey-25);
+}
+
+.delivery-subtitle {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--color-grey-25);
+}
+
+.delivery-menu {
+    margin-top: 40px;
+    display: flex;
+    gap: 13px;
+}
+
+.delivery-menu li {
+    padding: 0 9.5px 18px 9.5px;
+}
+
+.delivery-name {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delivery-name span:first-child {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--color-grey-25);
+}
+
+.delivery-name span:nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 104%;
+    text-align: center;
+    color: #414141;
+}
+
+.delivery-price {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delivery-price p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--color-grey-25);
+}
+
+.delivery-price button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #eae1d2;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #106d75;
+    border-radius: 100px;
+    background: #106d75;
+    padding: 1px 20px;
+    width: 184px;
+    height: 60px;
+}
