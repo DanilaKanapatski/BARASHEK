@@ -1,0 +1,37 @@
+.about {
+    margin-top: 33px;
+}
+
+.about-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-title {
+    margin-top: 109px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--color-grey-25);
+}
+
+.about-desc {
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--color-grey-33);
+}
+
+.about-subtitle {
+    margin: 120px auto 0;
+    max-width: 1000px;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-grey-25);
+}

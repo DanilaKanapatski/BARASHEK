@@ -1,0 +1,143 @@
+.main {
+    height: 100vh;
+    background-image: url("main.png");
+}
+
+.main-title {
+    margin-top: 92px;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 144%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white-solid);
+}
+
+.main-desc {
+    max-width: 1000px;
+    padding-top: 400px;
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 76px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white-solid);
+}
+
+/*news*/
+
+.news {
+    margin-top: 260px;
+}
+
+.news-title {
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-grey-25);
+}
+
+.news-slider {
+    margin-top: 72px;
+    display: flex;
+    gap: 16px;
+}
+
+.news-slide p {
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--color-grey-25);
+}
+
+/*catalog*/
+
+.catalog {
+    margin-top: 135px;
+}
+
+.catalog-title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--color-grey-25);
+}
+
+.catalog-list {
+    margin-top: 133px;
+    display: flex;
+    gap: 16px;
+}
+
+.catalog-list li:nth-child(odd) {
+    background: var(--color-white-solid);
+    padding: 16px;
+    border-radius: 40px;
+}
+
+.catalog-list li:nth-child(even) {
+    background: #6b4a39;
+    padding: 16px;
+    border-radius: 40px;
+}
+
+.catalog-list li a {
+    margin-top: 16px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    border: 1px solid var(--color-orange-72);
+    border-radius: 90px;
+    padding: 16px 1px;
+    width: 408px;
+    height: 58px;
+    background: #6b4a39;
+}
+
+/*stock*/
+
+.stock {
+    margin-top: 180px;
+}
+
+.stock-title {
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-grey-25);
+}
+
+.stock-slider {
+    margin-top: 72px;
+    display: flex;
+    gap: 16px;
+}
+
+.stock-slide p {
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--color-grey-25);
+}
+
+.stock-slide span {
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 131%;
+    color: var(--color-grey-33);
+}
