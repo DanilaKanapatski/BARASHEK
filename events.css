@@ -106,6 +106,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 10;
 }
 
 .table-reservation {
@@ -191,4 +193,202 @@
 
 .reviews img {
     margin-top: 81px;
+}
+
+@media screen and (max-width: 1919px) {
+    .events {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .events-title {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        max-width: 895px;
+    }
+
+    .events-desc {
+        margin-top: 37px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: var(--color-grey-33);
+        max-width: 784px;
+    }
+
+    .events-list {
+        margin-top: 61px;
+        display: flex;
+        flex-direction: column;
+        gap: 57px;
+    }
+
+    .events-list li {
+        border: 2px solid var(--color-white-solid);
+        padding: 8px;
+    }
+
+    .events-list__wrapper {
+        border: 2px solid var(--color-white-solid);
+        display: flex;
+        gap: 70px;
+        align-items: center;
+    }
+
+    .events-list__title {
+        max-width: 895px;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: var(--color-grey-25);
+    }
+
+    .events-list__desc {
+        margin-top: 37px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: var(--color-grey-33);
+    }
+
+    .events-list__btn{
+        margin-top: 46px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 119%;
+        text-transform: uppercase;
+        color: var(--color-white-solid);
+        background: #106d75;
+        border: 1px solid var(--color-orange-72);
+        border-radius: 90px;
+        width: 196px;
+        height: 60px;
+    }
+
+    .table {
+        margin-top: 95px;
+        margin-bottom: -392px;
+    }
+
+    .table-title {
+        margin: 0 auto;
+        max-width: 661px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--color-grey-25);
+    }
+
+    .table-desc {
+        margin: 42px auto 0;
+        max-width: 785px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: center;
+        color: var(--color-grey-33);
+    }
+
+    .table-img1 {
+        margin: 40px auto 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 10;
+    }
+
+    .table-reservation {
+        padding-top: 463px;
+        background: #6b4a39;
+        /*padding-top: 66px;*/
+        padding-left: 63px;
+        padding-bottom: 96px;
+        position: relative;
+        z-index: 3;
+    }
+
+    .table-reservation img {
+        position: absolute;
+        bottom: 208px;
+        right: 87px;
+        z-index: 1;
+    }
+
+    .table-reservation__wrapper {
+        padding: 68px 0 43px 66px;
+        max-width: 738px;
+        border: 2px solid var(--color-white-solid);
+        border-radius: 200px 900px 900px 0;
+        width: 738px;
+        position: relative;
+        z-index: 3;
+    }
+
+    .table-reservation__title {
+        max-width: 895px;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: var(--color-white-solid);
+        z-index: 3;
+
+    }
+
+    .table-reservation__desc {
+        margin-top: 48px;
+        max-width: 511px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: white;
+        opacity: 0.8;
+        z-index: 3;
+
+    }
+
+    .table-reservation__btn {
+        margin-top: 66px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 155%;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--color-white-solid);
+        background: #106d75;
+        border-radius: 90px;
+        padding: 16px 0px;
+        width: 215px;
+        z-index: 3;
+        height: 58px;
+    }
+
+    .reviews {
+        margin-top: 102px;
+        margin-bottom: 120px;
+    }
+
+    .reviews-title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: var(--color-grey-25);
+    }
+
+    .reviews img {
+        margin-top: 42px;
+    }
 }
