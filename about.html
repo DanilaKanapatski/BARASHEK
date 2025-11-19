@@ -38,8 +38,16 @@
 <main>
     <section class="about">
         <div class="container">
+            <img class="about-mob" src="about-1.2.png" alt="">
             <div class="about-img">
-                <img src="about-1.png" alt=""><img src="about-2.png" alt="">
+                <picture>
+                    <source media="(max-width: 1919px)" srcset="about-1.1.png"/>
+                    <img src="about-1.png" alt=""/>
+                </picture>
+                <picture>
+                    <source media="(max-width: 1919px)" srcset="about-2.1.png"/>
+                    <img src="about-2.png" alt=""/>
+                </picture>
             </div>
             <h2 class="about-title">уВАЖАЕМЫЕ ГОСТИ</h2>
             <p class="about-desc">Мы всегда рады подарить вам атмосферу уюта и изысканного отдыха в сочетании с кавказской, русской и европейской кухне на ваш вкус.   <br>
@@ -48,23 +56,31 @@
                 Всегда рады видеть вас снова!
                 <br>
                 Доставка блюд восточной и европейской кухни из ресторана Барашек от 3000 руб.</p>
+            <img class="about-mob" src="about-2.2.png" alt="">
+
             <h2 class="about-subtitle">Свяжитесь с нами по любому
                 интересующему вопросу</h2>
+
         </div>
     </section>
     <section class="contacts">
         <div class="container">
+            <h2 class="contacts-title">НАШИ КОНТАКТЫ</h2>
             <div class="contacts-wrapper">
                 <div class="contacts-content">
                     <h3 class="contacts-subtitle">ресторан
                         БАРАШЕК</h3>
-                    <p>Москва, ул. Дубнинская, 19</p>
-                    <p>Вс-чт 11:00-00:00<br>Пт-сб 11:00-01:00</p>
-                    <p>Телефон</p>
+                    <p class="contacts-address">Москва, ул. Дубнинская, 19</p>
+                    <p class="contacts-time">Вс-чт 11:00-00:00<br>Пт-сб 11:00-01:00</p>
+                    <p class="contacts-tel">Телефон</p>
                     <a href="tel:+7 (495) 608 03 50">+7 (495) 608 03 50</a>
-                    <p>Почта</p>
+                    <p class="contacts-mail">Почта</p>
                     <a href="mailto:barashekrestoran@yandex.ru">barashekrestoran@yandex.ru</a></div>
                 <img src="contacts.png" alt=""></div>
+            <ul class="contacts-list">
+                <li><a href="about.html">подробнее о ресторане</a></li>
+                <li><a href="delivery.html">меню ресторана</a></li>
+            </ul>
         </div>
     </section>
 </main>
@@ -80,8 +96,8 @@
             </ul>
             <div>
                 <div class="footer-social">
-                    <a href="">VK</a>
-                    <a href="">TG</a>
+                    <a href=""><img src="tg.svg" alt=""></a>
+                    <a href=""><img src="vk.svg" alt=""></a>
                 </div>
                 <ul class="footer-links">
                     <li><a href="">Реквизиты</a></li>
