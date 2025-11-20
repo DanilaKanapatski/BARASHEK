@@ -98,3 +98,231 @@
     width: 184px;
     height: 60px;
 }
+
+@media screen and (max-width: 1919px) {
+    .delivery {
+        margin-bottom: 120px;
+    }
+
+    .delivery-title {
+        margin-top: 61px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 125%;
+        text-transform: uppercase;
+        color: #414141;
+    }
+
+    .delivery-list {
+        margin-top: 32px;
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+
+    .delivery-list p {
+        margin-top: 12px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+        text-align: center;
+        color: var(--color-grey-25);
+    }
+
+    .delivery-subtitle {
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--color-grey-25);
+    }
+
+    .delivery-menu {
+        margin-top: 40px;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .delivery-menu img {
+        width: 282px;
+        height: 191px;
+    }
+
+    .delivery-menu li {
+        padding: 0 0 18px 11px;
+    }
+
+    .delivery-name {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .delivery-name span:first-child {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        color: var(--color-grey-25);
+    }
+
+    .delivery-name span:nth-child(2) {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 104%;
+        text-align: center;
+        color: #414141;
+    }
+
+    .delivery-price {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .delivery-price p {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        color: var(--color-grey-25);
+    }
+
+    .delivery-price button {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: #eae1d2;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        border: 1px solid #106d75;
+        border-radius: 100px;
+        background: #106d75;
+        padding: 1px 20px;
+        width: 184px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .delivery {
+        margin-bottom: 100px;
+    }
+
+    .delivery-title {
+        margin-top: 36px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 125%;
+        text-transform: uppercase;
+        color: #414141;
+    }
+
+    .delivery-list {
+        margin-top: 11px;
+        display: flex;
+        gap: 17px;
+    }
+
+    .delivery-list img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .delivery-list p {
+        max-width: 75px;
+        margin-top: 5px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 149%;
+        text-align: center;
+    }
+
+    .delivery-subtitle {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 200%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: var(--color-grey-25);
+    }
+
+    .delivery-menu {
+        margin-top: 20px;
+        display: flex;
+        gap: 19px 39px;
+    }
+
+    .delivery-menu img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .delivery-menu li {
+        padding: 0;
+    }
+
+    .delivery-name {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .delivery-name span:first-child {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 149%;
+        color: var(--color-grey-25);
+    }
+
+    .delivery-name span:nth-child(2) {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 189%;
+        text-align: center;
+        color: #414141;
+    }
+
+    .delivery-price {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .delivery-price p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        color: black;
+    }
+
+    .delivery-price button {
+        font-weight: 600;
+        font-size: 3px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: #eae1d2;
+        display: flex;
+        gap: 1px;
+        align-items: center;
+        border: 1px solid #106d75;
+        border-radius: 100px;
+        background: #106d75;
+        padding: 1px 20px;
+        width: 25px;
+        height: 19px;
+    }
+
+    .delivery-price svg {
+        width: 12px;
+        height: 12px;
+    }
+}
