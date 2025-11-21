@@ -28,6 +28,6 @@ new Swiper(".myStockSwiper", {
     breakpoints: {
         320: { slidesPerView: 1.1 },
         768: { slidesPerView: 2 },
-        1296: { slidesPerView: 3 }
+        1900: { slidesPerView: 3 }
     }
 });
