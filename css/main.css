@@ -1144,6 +1144,8 @@
     .main {
         height: 100vh;
         background-image: url("../assets/images/main.png");
+        background-position: center;
+        background-size: cover;
     }
 
     .main-title {
@@ -1290,7 +1292,7 @@
         border: 1px solid var(--color-orange-72);
         border-radius: 90px;
         width: 144px;
-        height: 60px;
+        height: 40px;
     }
 
     /*catalog*/
@@ -1325,6 +1327,7 @@
 
     .catalog-btn {
         margin-top: 38px;
+        height: 40px;
     }
 
     .catalog-list {
@@ -1465,7 +1468,7 @@
         border: 1px solid var(--color-orange-72);
         border-radius: 90px;
         width: 162px;
-        height: 60px;
+        height: 40px;
     }
 
     /*video*/
@@ -1551,9 +1554,9 @@
         text-align: center;
         color: black;
         border-radius: 90px;
-        padding: 16px 0px;
+        padding: 10px 0px;
         width: 264px;
-        height: 58px;
+        height: 40px;
         background: #eae1d2;
         display: block;
     }
@@ -1643,9 +1646,9 @@
         display: block;
         background: #106d75;
         border-radius: 90px;
-        padding: 16px 0px;
+        padding: 10px 0px;
         width: 215px;
-        height: 58px;
+        height: 40px;
         font-weight: 600;
         font-size: 16px;
         line-height: 155%;
