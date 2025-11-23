@@ -1,7 +1,7 @@
 new Swiper(".myNewsSwiper", {
-    slidesPerView: 3,
+    slidesPerView: 1.4,
     loop: true,
-    spaceBetween: 16,
+    spaceBetween: 23,
 
     navigation: {
         nextEl: ".news-next",
@@ -9,16 +9,15 @@ new Swiper(".myNewsSwiper", {
     },
 
     breakpoints: {
-        320: { slidesPerView: 1.1 },
         768: { slidesPerView: 2 },
         1900: { slidesPerView: 3 }
     }
 });
 
 new Swiper(".myStockSwiper", {
-    slidesPerView: 3,
+    slidesPerView: 1.4,
     loop: true,
-    spaceBetween: 16,
+    spaceBetween: 23,
 
     navigation: {
         nextEl: ".stock-next",
@@ -26,7 +25,6 @@ new Swiper(".myStockSwiper", {
     },
 
     breakpoints: {
-        320: { slidesPerView: 1.1 },
         768: { slidesPerView: 2 },
         1900: { slidesPerView: 3 }
     }

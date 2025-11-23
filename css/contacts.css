@@ -249,4 +249,8 @@
         height: 58px;
         background: #eae1d2;
     }
+
+    .contacts-wrapper iframe {
+        width: 100% !important;
+    }
 }
