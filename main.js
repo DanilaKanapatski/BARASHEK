@@ -9,7 +9,7 @@ new Swiper(".myNewsSwiper", {
     },
 
     breakpoints: {
-        768: { slidesPerView: 2 },
+        768: { slidesPerView: 2.7 },
         1900: { slidesPerView: 3 }
     }
 });
@@ -25,7 +25,7 @@ new Swiper(".myStockSwiper", {
     },
 
     breakpoints: {
-        768: { slidesPerView: 2 },
+        768: { slidesPerView: 2.7 },
         1900: { slidesPerView: 3 }
     }
 });

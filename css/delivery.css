@@ -3,6 +3,7 @@
 }
 
 .delivery-title {
+    max-width: 1284px;
     margin-top: 96px;
     font-weight: 400;
     font-size: 44px;
@@ -153,18 +154,22 @@
 
     .delivery-menu li {
         padding: 0 0 18px 11px;
+        display: flex;
+        flex-direction: column;
+        height: 330px;
     }
 
     .delivery-name {
         margin-top: 20px;
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: space-between;
     }
 
     .delivery-name span:first-child {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
+        max-width: 200px;
         line-height: 130%;
         color: var(--color-grey-25);
     }
@@ -178,34 +183,39 @@
     }
 
     .delivery-price {
-        margin-top: 16px;
+        margin-top: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
     .delivery-price p {
-        font-weight: 700;
-        font-size: 24px;
+        font-weight: 500;
+        font-size: 20px;
         line-height: 120%;
         color: var(--color-grey-25);
     }
 
+    .delivery-price svg {
+        width: 20px;
+    }
+
     .delivery-price button {
-        font-weight: 600;
-        font-size: 16px;
+        font-weight: 500;
+        font-size: 14px;
         line-height: 130%;
         text-transform: uppercase;
         color: #eae1d2;
         display: flex;
         gap: 8px;
         align-items: center;
+        justify-content: center;
         border: 1px solid #106d75;
         border-radius: 100px;
         background: #106d75;
-        padding: 1px 20px;
-        width: 184px;
-        height: 60px;
+        padding: 1px 10px;
+        width: 164px;
+        height: 40px;
     }
 }
 
@@ -239,7 +249,7 @@
         margin-top: 5px;
         font-weight: 500;
         font-size: 14px;
-        line-height: 149%;
+        line-height: 100%;
         text-align: center;
     }
 
@@ -256,16 +266,21 @@
     .delivery-menu {
         margin-top: 20px;
         display: flex;
-        gap: 19px 39px;
+        gap: 20px;
     }
 
     .delivery-menu img {
-        width: 150px;
+        width: 100%;
         height: 150px;
     }
 
     .delivery-menu li {
         padding: 0;
+    }
+
+    .delivery-menu li {
+        height: 200px;
+        width: 46%;
     }
 
     .delivery-name {
@@ -276,7 +291,7 @@
     }
 
     .delivery-name span:first-child {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 14px;
         line-height: 149%;
         color: var(--color-grey-25);
@@ -284,7 +299,7 @@
 
     .delivery-name span:nth-child(2) {
         font-weight: 500;
-        font-size: 11px;
+        font-size: 13px;
         line-height: 189%;
         text-align: center;
         color: #414141;
@@ -304,9 +319,13 @@
         color: black;
     }
 
+    .delivery-price svg {
+        display: none;
+    }
+
     .delivery-price button {
-        font-weight: 600;
-        font-size: 3px;
+        font-weight: 500;
+        font-size: 12px;
         line-height: 130%;
         text-transform: uppercase;
         color: #eae1d2;
@@ -316,9 +335,9 @@
         border: 1px solid #106d75;
         border-radius: 100px;
         background: #106d75;
-        padding: 1px 20px;
-        width: 25px;
-        height: 19px;
+        padding: 10px;
+        width: 105px;
+        height: 29px;
     }
 
     .delivery-price svg {
