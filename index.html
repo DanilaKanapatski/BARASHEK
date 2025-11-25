@@ -15,7 +15,7 @@
 <header class="header">
     <div class="container">
         <div class="header-wrapper">
-            <div class="header-burger">
+            <div class="header-burger" id="burger">
                 <span></span><span></span><span></span>
             </div>
             <a href="">НА КАРТЕ</a></div>
@@ -37,6 +37,24 @@
                     </g>
                 </svg>
                 доставка</a></div>
+        <div class="header-nav" id="header-nav">
+            <div class="header-close" id="close">
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="">Главная</a></li>
+                <li><a href="">Доставка</a></li>
+                <li><a href="">Бронирование</a></li>
+                <li><a href="">Специальные предложения</a></li>
+                <li><a href="">основное Меню </a></li>
+                <li><a href="">Банкеты</a></li>
+                <li><a href="">Барное меню</a></li>
+                <li><a href="">О ресторане</a></li>
+                <li><a href="">Условия доставки</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </div>
     </div>
 </header>
 
@@ -95,9 +113,8 @@
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(max-width: 1000px)" srcset="assets/images/news-8.1.png"/>
-
-                                <source media="(max-width: 1000px)" srcset="assets/images/news-8.1.png"/>
+                                <source media="(max-width: 1000px)" srcset="assets/images/news-7.1.png"/>
+                                <source media="(max-width: 1919px)" srcset="assets/images/news-9.2.png"/>
                                 <img src="assets/images/news-9.png" alt=""/>
                             </picture>
                             <p>Обновили меню ресторана</p>
@@ -106,7 +123,6 @@
                             <picture>
                                 <source media="(max-width: 1000px)" srcset="assets/images/news-8.1.png"/>
                                 <source media="(max-width: 1919px)" srcset="assets/images/news-10.2.png"/>
-
                                 <img src="assets/images/news-10.png" alt=""/>
                             </picture>
                             <p>Новогодняя ночь </p>
@@ -129,9 +145,8 @@
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(max-width: 1000px)" srcset="assets/images/news-8.1.png"/>
-
-                                <source media="(max-width: 1000px)" srcset="assets/images/news-8.1.png"/>
+                                <source media="(max-width: 1000px)" srcset="assets/images/news-7.1.png"/>
+                                <source media="(max-width: 1919px)" srcset="assets/images/news-9.2.png"/>
                                 <img src="assets/images/news-9.png" alt=""/>
                             </picture>
                             <p>Обновили меню ресторана</p>
@@ -140,7 +155,6 @@
                             <picture>
                                 <source media="(max-width: 1000px)" srcset="assets/images/news-8.1.png"/>
                                 <source media="(max-width: 1919px)" srcset="assets/images/news-10.2.png"/>
-
                                 <img src="assets/images/news-10.png" alt=""/>
                             </picture>
                             <p>Новогодняя ночь </p>
@@ -253,7 +267,7 @@
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(max-width: 1000px)" srcset="assets/images/stock-6.1.png"/>
+                                <source media="(max-width: 1000px)" srcset="assets/images/stock-5.1.png"/>
                                 <source media="(max-width: 1919px)" srcset="assets/images/stock-7.2.png"/>
                                 <img src="assets/images/stock-7.png" alt=""/>
                             </picture>
@@ -287,7 +301,7 @@
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(max-width: 1000px)" srcset="assets/images/stock-6.1.png"/>
+                                <source media="(max-width: 1000px)" srcset="assets/images/stock-5.1.png"/>
                                 <source media="(max-width: 1919px)" srcset="assets/images/stock-7.2.png"/>
                                 <img src="assets/images/stock-7.png" alt=""/>
                             </picture>
@@ -301,11 +315,8 @@
                             </picture>
                             <p>Банкеты</p>
                         </div>
-
-
                     </div>
                 </div>
-
                 <!-- УНИКАЛЬНЫЕ КНОПКИ -->
                 <div class="stock-slider-nav">
                     <div class="stock-prev">
@@ -441,10 +452,13 @@
 
             </div>
 
-            <ul class="contacts-list">
-                <li><a href="pages/about.html">подробнее о ресторане</a></li>
-                <li><a href="pages/delivery.html">меню ресторана</a></li>
-            </ul>
+            <div class="contacts-mark">
+                <ul class="contacts-list">
+                    <li><a href="pages/about.html">подробнее о ресторане</a></li>
+                    <li><a href="pages/delivery.html">меню ресторана</a></li>
+                </ul>
+                <img src="assets/images/contacts-1.png" alt="">
+            </div>
         </div>
     </section>
 </main>
@@ -484,5 +498,6 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="main.js"></script>
+<script src="burger.js"></script>
 </body>
 </html>

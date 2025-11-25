@@ -1180,26 +1180,26 @@
 
 @media screen and (max-width: 1000px) {
     .main {
-        height: 100vh;
+        height: 336px; /* фикс для мобильных */
         background-image: url("../assets/images/main-2.png");
-        /*background-position: center;*/
+        background-position: center center;
         background-repeat: no-repeat;
-        bac
-        /*background-size: cover;*/
+        background-size: cover;
+        background-attachment: scroll;
     }
 
     .main-title {
         margin-top:10px;
         font-weight: 400;
         font-size: 64px;
-        line-height: 162%;
+        line-height: 100%;
         text-align: center;
         color: var(--color-white-solid);
     }
 
     .main-desc {
         max-width: 290px;
-        padding-top: 200px;
+        padding-top: 166px;
         font-weight: 400;
         font-size: 20px;
         line-height: 125%;
@@ -1281,11 +1281,15 @@
 
     .news-slider-nav {
         position: absolute;
-        top: -55px;
+        top: -49px;
         right: 0;
         display: flex;
         gap: 15px;
         z-index: 10;
+    }
+
+    .news-slider-nav svg {
+        height: 40px;
     }
 
     .news-prev,
@@ -1449,11 +1453,15 @@
 
     .stock-slider-nav {
         position: absolute;
-        top: -55px;
+        top: -49px;
         right: 0;
         display: flex;
         gap: 32px;
         z-index: 10;
+    }
+
+    .stock-slider-nav svg {
+        height: 40px;
     }
 
     .stock-prev,
@@ -1723,6 +1731,7 @@
         position: absolute;
         top: -670px;
         left: 0;
+        width: auto;
     }
 
     .reserve-img1 img {

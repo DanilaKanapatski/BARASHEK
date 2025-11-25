@@ -12,19 +12,66 @@
     color: #414141;
 }
 
-.delivery-list {
-    margin-top: 32px;
-    display: flex;
-    gap: 14px;
+.delivery-slider-wrapper {
+    margin-top: 40px;
 }
 
-.delivery-list p {
+.delivery-nav {
+    margin-top: 20px;
+    position: relative;
+    /*top: 150px;*/
+    /*transform: translateY(-50%);*/
+    /*right: 50px;*/
+    display: flex;
+    gap: 32px;
+    z-index: 20;
+}
+
+/* Кнопки */
+.delivery-prev,
+.delivery-next {
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #EAE1D2;
+    z-index: 20;
+}
+
+.delivery-next {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.deliverySwiper .swiper-slide {
+    width: auto; /* важно! чтобы помещалось сколько влезет */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deliverySwiper img {
+    width: 164px;
+    height: auto;
+    display: block;
+}
+
+.deliverySwiper p {
     margin-top: 12px;
     font-weight: 500;
     font-size: 16px;
     line-height: 130%;
     text-align: center;
     color: var(--color-grey-25);
+}
+
+
+.delivery-list p {
+
 }
 
 .delivery-subtitle {
@@ -233,24 +280,68 @@
         color: #414141;
     }
 
-    .delivery-list {
-        margin-top: 11px;
+    .delivery-slider-wrapper {
+        margin-top: 20px;
+    }
+
+    .delivery-nav {
+        margin-top: 0;
+        position: relative;
+        /*top: 150px;*/
+        /*transform: translateY(-50%);*/
+        /*right: 50px;*/
         display: flex;
-        gap: 17px;
+        gap: 32px;
+        z-index: 20;
     }
 
-    .delivery-list img {
+    .delivery-nav svg {
+        width: 40px;
+    }
+
+    /* Кнопки */
+    .delivery-prev,
+    .delivery-next {
+        width: 58px;
+        height: 58px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: #EAE1D2;
+        z-index: 20;
+    }
+
+    .delivery-next {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .deliverySwiper .swiper-slide {
+        width: auto; /* важно! чтобы помещалось сколько влезет */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deliverySwiper img {
         width: 75px;
-        height: 75px;
+        height: auto;
+        display: block;
     }
 
-    .delivery-list p {
+    .deliverySwiper p {
         max-width: 75px;
         margin-top: 5px;
         font-weight: 500;
         font-size: 14px;
         line-height: 100%;
         text-align: center;
+    }
+    .delivery-list p {
+
     }
 
     .delivery-subtitle {

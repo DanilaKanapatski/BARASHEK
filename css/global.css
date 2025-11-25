@@ -174,20 +174,19 @@ body {
 }
 
 .footer-links {
-    margin-top: 50px;
+    margin-top: 38px;
     display: flex;
     flex-direction: column;
     align-items: end;
-    gap: 10px;
 }
 
 .footer-links a {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 119%;
-    text-transform: uppercase;
-    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 167%;
     color: var(--color-grey-25);
+
 }
 
 .footer-name {
@@ -253,7 +252,7 @@ img {
 
 .header {
     background: #6b4a39;
-    padding: 27px 0;
+    padding: 20px 0;
 }
 
 .header .container {
@@ -274,7 +273,7 @@ img {
 }
 
 .header a {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 155%;
     text-transform: uppercase;
@@ -282,7 +281,7 @@ img {
     color: var(--color-grey-25);
     border: 1px solid var(--color-orange-72);
     border-radius: 90px;
-    padding: 16px 20px;
+    padding: 10px 20px;
     background: #eae1d2;
 }
 
@@ -297,8 +296,8 @@ img {
 
 .header-burger {
     background: #eae1d2;
-    width: 87px;
-    height: 57px;
+    width: 67px;
+    height: 50px;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
@@ -306,10 +305,72 @@ img {
     align-items: center;
     justify-content: center;
 }
+
+.header-close {
+    position: absolute;
+    cursor: pointer;
+    right: 39px;
+    top: 32px;
+    width: 62px;
+    height: 64px;
+}
+
+.header-close span {
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: white;
+}
+
+/* Верхняя линия */
+.header-close span:first-child {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+/* Нижняя линия */
+.header-close span:last-child {
+    transform: translateY(-50%) rotate(-45deg);
+}
 .header-burger span {
-    width: 32px;
+    width: 40px;
     height: 1px;
     background: var(--color-grey-25);
+}
+
+.header-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0 59px 59px 59px;
+    width: 448px;
+    height: 100vh;
+    background: #6b4a39;
+    display: none;
+    padding-left: 52px;
+    padding-top: 52px;
+}
+
+.header-nav.active {
+    display: block;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-nav ul li {
+    background: none;
+}
+
+.header-nav ul a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 77%;
+    text-transform: uppercase;
+    color: white;
+    background-color: initial !important;
 }
 
 @media screen and  (max-width: 1919px) {

@@ -5,6 +5,7 @@
     <title>Барашек</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="../css/delivery.css">
 </head>
 <body>
@@ -43,38 +44,95 @@
             дома</h2>
             <div class="links"><a href="index.html">Главная</a><span>/</span><a href="delivery.html">Меню доставки</a>
             </div>
-            <ul class="delivery-list">
-                <li><img src="../assets/images/delivery-1.png" alt="">
-                    <p>Гарниры</p>
-                </li>
-                <li><img src="../assets/images/delivery-2.png" alt="">
-                    <p>Гарниры</p>
-                </li>
-                <li><img src="../assets/images/delivery-3.png" alt="">
-                    <p>Мясные горячие блюда</p>
-                </li>
-                <li><img src="../assets/images/delivery-4.png" alt="">
-                    <p>Холодные закуски</p>
-                </li>
-                <li><img src="../assets/images/delivery-5.png" alt="">
-                    <p>Шашлык</p>
-                </li>
-                <li><img src="../assets/images/delivery-6.png" alt="">
-                    <p>Паста</p>
-                </li>
-                <li><img src="../assets/images/delivery-7.png" alt="">
-                    <p>Супы</p>
-                </li>
-                <li><img src="../assets/images/delivery-8.png" alt="">
-                    <p>Хлеб</p>
-                </li>
-                <li><img src="../assets/images/delivery-9.png" alt="">
-                    <p>Десерты</p>
-                </li>
-                <li><img src="../assets/images/delivery-10.png" alt="">
-                    <p>Напитки</p>
-                </li>
-            </ul>
+            <div class="delivery-slider-wrapper">
+                <div class="swiper deliverySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-1.png" alt="">
+                            <p>Гарниры</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-2.png" alt="">
+                            <p>Гарниры</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-3.png" alt="">
+                            <p>Мясные горячие блюда</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-4.png" alt="">
+                            <p>Холодные закуски</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-5.png" alt="">
+                            <p>Шашлык</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-6.png" alt="">
+                            <p>Паста</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-7.png" alt="">
+                            <p>Супы</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-8.png" alt="">
+                            <p>Хлеб</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-9.png" alt="">
+                            <p>Десерты</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../assets/images/delivery-10.png" alt="">
+                            <p>Напитки</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="delivery-nav">
+                    <div class="delivery-prev">
+                        <!-- вставляй свой SVG -->
+                        <svg width="69" height="58" viewBox="0 0 69 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_428_2218)">
+                                <path d="M39.8077 0.471191H29.1923C13.4363 0.471191 0.663452 13.244 0.663452 29C0.663452 44.7561 13.4363 57.5289 29.1923 57.5289H39.8077C55.5637 57.5289 68.3365 44.7561 68.3365 29C68.3365 13.244 55.5637 0.471191 39.8077 0.471191Z" fill="#EAE1D2" />
+                                <path d="M39.8077 0.471191H29.1923C13.4363 0.471191 0.663452 13.244 0.663452 29C0.663452 44.7561 13.4363 57.5289 29.1923 57.5289H39.8077C55.5637 57.5289 68.3365 44.7561 68.3365 29C68.3365 13.244 55.5637 0.471191 39.8077 0.471191Z" stroke="#C1BAAF" stroke-width="1.32692" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.1654 28.5884C25.3184 28.1315 25.8127 27.8851 26.2697 28.038C36.4984 31.4615 39.6906 38.5337 39.9488 41.8844C39.9858 42.3649 39.6264 42.7844 39.146 42.8214C38.6657 42.8584 38.2461 42.4989 38.2091 42.0186C38.0082 39.4114 35.3232 32.9081 25.7158 29.6927C25.259 29.5397 25.0126 29.0453 25.1654 28.5884Z" fill="#414141" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.1654 29.1421C25.3184 29.5989 25.8127 29.8454 26.2697 29.6925C36.4984 26.269 39.6906 19.1968 39.9488 15.8459C39.9858 15.3656 39.6264 14.9461 39.146 14.9091C38.6657 14.8721 38.2461 15.2316 38.2091 15.7119C38.0082 18.319 35.3232 24.8224 25.7158 28.0378C25.259 28.1907 25.0126 28.6851 25.1654 29.1421Z" fill="#414141" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_428_2218">
+                                    <rect width="69" height="58.3846" fill="white" transform="translate(0 -0.192383)" />
+                                </clipPath>
+                            </defs>
+                        </svg></div>
+                    <div class="delivery-next"> <!-- вставляй свой SVG -->
+                        <svg width="69" height="58" viewBox="0 0 69 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_428_2226)">
+                                <path d="M29.1923 0.471191H39.8077C55.5637 0.471191 68.3365 13.244 68.3365 29C68.3365 44.7561 55.5637 57.5289 39.8077 57.5289H29.1923C13.4363 57.5289 0.663467 44.7561 0.663467 29C0.663467 13.244 13.4363 0.471191 29.1923 0.471191Z" fill="#EAE1D2" />
+                                <path d="M29.1923 0.471191H39.8077C55.5637 0.471191 68.3365 13.244 68.3365 29C68.3365 44.7561 55.5637 57.5289 39.8077 57.5289H29.1923C13.4363 57.5289 0.663467 44.7561 0.663467 29C0.663467 13.244 13.4363 0.471191 29.1923 0.471191Z" stroke="#C1BAAF" stroke-width="1.32692" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M44.5737 28.5884C44.4207 28.1315 43.9265 27.8851 43.4695 28.038C33.2407 31.4615 30.0486 38.5337 29.7903 41.8844C29.7533 42.3649 30.1128 42.7844 30.5931 42.8214C31.0736 42.8584 31.493 42.4989 31.5301 42.0186C31.731 39.4114 34.416 32.9081 44.0233 29.6927C44.4802 29.5397 44.7266 29.0453 44.5737 28.5884Z" fill="#414141" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M44.5737 29.1421C44.4207 29.5989 43.9265 29.8454 43.4695 29.6925C33.2407 26.269 30.0486 19.1968 29.7903 15.8459C29.7533 15.3656 30.1128 14.9461 30.5931 14.9091C31.0736 14.8721 31.493 15.2316 31.5301 15.7119C31.731 18.319 34.416 24.8224 44.0233 28.0378C44.4802 28.1907 44.7266 28.6851 44.5737 29.1421Z" fill="#414141" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_428_2226">
+                                    <rect width="69" height="58.3846" fill="white" transform="translate(0 -0.192383)" />
+                                </clipPath>
+                            </defs>
+                        </svg></div>
+                </div>
+            </div>
+
 
 
             <h3 class="delivery-subtitle">Гарниры</h3>
@@ -430,5 +488,7 @@
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../delivery.js"></script>
 </body>
 </html>
