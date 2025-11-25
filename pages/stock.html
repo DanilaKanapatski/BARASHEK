@@ -10,10 +10,10 @@
 <header class="header">
   <div class="container">
     <div class="header-wrapper">
-      <div class="header-burger">
+      <div class="header-burger" id="burger">
         <span></span><span></span><span></span>
       </div>
-      <a href="">НА КАРТЕ</a></div>
+      <a class="header-map" href="">НА КАРТЕ</a></div>
     <img src="../assets/images/logo.svg" alt="">
     <div class="header-links"><a href="">меню</a>
       <a href="">резерв стола</a>
@@ -32,6 +32,65 @@
           </g>
         </svg>
         доставка</a></div>
+    <div class="header-nav" id="header-nav">
+      <div class="header-close" id="close">
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../pages/delivery.html">Доставка</a></li>
+        <li><a href="">Бронирование</a></li>
+        <li><a href="../pages/stock.html">Специальные предложения</a></li>
+        <li><a href="https://drive.google.com/file/d/1-AG9vjzfArAFehV03Vx68mj6UqjaI8mR/view">основное Меню </a></li>
+        <li><a href="../pages/events.html">Банкеты</a></li>
+        <li><a href="https://drive.google.com/file/d/1zAoHg4mSedT6jJzfkkThrYJZFH5zC8hH/view">Барное меню</a></li>
+        <li><a href="../pages/about.html">О ресторане</a></li>
+        <li><a href="../pages/news.html">Новости</a></li>
+        <li><a href="../pages/contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<header class="header-mob">
+  <div class="container">
+    <div class="header-mob-burger" id="header-mob-burger">
+      <span></span><span></span><span></span>
+    </div>
+    <img src="../assets/images/logo-mob.svg" alt="">
+    <div class="header-links"><a href=""><img src="../assets/images/map.svg" alt=""></a><a href="">
+      <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <mask id="mask0_535_14568" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
+              height="19">
+          <path d="M20 0H0V19H20V0Z" fill="white"/>
+        </mask>
+        <g mask="url(#mask0_535_14568)">
+          <path d="M5.27819 6.33344H14.7273C14.9677 6.33344 15.2051 6.38277 15.4235 6.47804C15.6418 6.57338 15.8359 6.71242 15.9924 6.88572C16.1489 7.05896 16.2641 7.26233 16.3301 7.48178C16.3961 7.7013 16.4114 7.93181 16.3748 8.15743L15.329 14.6111C15.2383 15.172 14.939 15.6834 14.4857 16.0528C14.0323 16.4222 13.4547 16.6253 12.8573 16.6251H7.14733C6.55019 16.6251 5.97276 16.422 5.51954 16.0525C5.06633 15.6831 4.76733 15.1718 4.67655 14.6111L3.63069 8.15743C3.59419 7.93181 3.6094 7.7013 3.67547 7.48178C3.74147 7.26233 3.85669 7.05896 4.01312 6.88572C4.16962 6.71242 4.36369 6.57338 4.58205 6.47804C4.8004 6.38277 5.0379 6.33344 5.27819 6.33344Z"
+                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7.5 8.70831V4.75C7.5 4.12008 7.76336 3.51602 8.23221 3.0706C8.70107 2.62519 9.33693 2.375 10 2.375C10.6631 2.375 11.2989 2.62519 11.7678 3.0706C12.2366 3.51602 12.5 4.12008 12.5 4.75V8.70831"
+                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </svg>
+    </a>
+    </div>
+    <div class="header-nav" id="header-nav-mob">
+      <div class="header-close" id="close-mob">
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../pages/delivery.html">Доставка</a></li>
+        <li><a href="">Бронирование</a></li>
+        <li><a href="../pages/stock.html">Специальные предложения</a></li>
+        <li><a href="https://drive.google.com/file/d/1-AG9vjzfArAFehV03Vx68mj6UqjaI8mR/view">основное Меню </a></li>
+        <li><a href="../pages/events.html">Банкеты</a></li>
+        <li><a href="https://drive.google.com/file/d/1zAoHg4mSedT6jJzfkkThrYJZFH5zC8hH/view">Барное меню</a></li>
+        <li><a href="../pages/about.html">О ресторане</a></li>
+        <li><a href="../pages/news.html">Новости</a></li>
+        <li><a href="../pages/contacts.html">Контакты</a></li>
+      </ul>
+    </div>
   </div>
 </header>
 <main>
@@ -107,10 +166,10 @@
     <div class="footer-wrapper">
       <ul class="footer-list">
         <li><a href="">Мы на карте</a></li>
-        <li><a href="">Забронировать столик</a></li>
-        <li><a href="">Доставка</a></li>
-        <li><a href="">Контакты</a></li>
-        <li><a href="">Специальные предложения</a></li>
+        <li><a href="../pages/delivery.html">Забронировать столик</a></li>
+        <li><a href="../pages/delivery.html">Доставка</a></li>
+        <li><a href="../pages/contacts.html">Контакты</a></li>
+        <li><a href="../pages/stock.html">Специальные предложения</a></li>
       </ul>
       <div>
         <div class="footer-social">
@@ -136,5 +195,6 @@
     </div>
   </div>
 </footer>
+<script src="../burger.js"></script>
 </body>
 </html>
