@@ -30,8 +30,8 @@
 /* Кнопки */
 .delivery-prev,
 .delivery-next {
-    width: 58px;
-    height: 58px;
+    width: 45px;
+    height: 45px;
     border-radius: 16px;
     display: flex;
     justify-content: center;
