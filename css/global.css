@@ -22,6 +22,11 @@ button {
 body {
     background: #eae1d2;
     font-family: "Manrope", sans-serif;
+    color: black !important;
+}
+
+main {
+    color: black !important;
 }
 
 :root {
